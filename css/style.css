@@ -1,0 +1,1361 @@
+@charset "utf-8";
+
+/* CSS Document */
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'), url('../fonts/opensans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url('../fonts/opensans-light-webfont.woff2') format('woff2'), url('../fonts/opensans-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'), url('../fonts/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'), url('../fonts/opensans-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'poppinsbold';
+  src: url('../fonts/poppins-bold-webfont.eot');
+  src: url('../fonts/poppins-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/poppins-bold-webfont.woff2') format('woff2'), url('../fonts/poppins-bold-webfont.woff') format('woff'), url('../fonts/poppins-bold-webfont.svg#poppinsbold') format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'poppinslight';
+  src: url('../fonts/poppins-light-webfont.eot');
+  src: url('../fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/poppins-light-webfont.woff2') format('woff2'), url('../fonts/poppins-light-webfont.woff') format('woff'), url('../fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'poppinsmedium';
+  src: url('../fonts/poppins-medium-webfont.eot');
+  src: url('../fonts/poppins-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/poppins-medium-webfont.woff2') format('woff2'), url('../fonts/poppins-medium-webfont.woff') format('woff'), url('../fonts/poppins-medium-webfont.svg#poppinsmedium') format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('../fonts/poppins-regular-webfont.eot');
+  src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/poppins-regular-webfont.woff2') format('woff2'), url('../fonts/poppins-regular-webfont.woff') format('woff'), url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'poppinssemibold';
+  src: url('../fonts/poppins-semibold-webfont.eot');
+  src: url('../fonts/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/poppins-semibold-webfont.woff2') format('woff2'), url('../fonts/poppins-semibold-webfont.woff') format('woff'), url('../fonts/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'poppinsitalic';
+  src: url('./fonts/poppins-italic-webfont.woff2') format('woff2'), url('./fonts/poppins-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'latobold';
+  src: url('../fonts/lato-bold-webfont.woff2') format('woff2'), url('../fonts/lato-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'latomedium';
+  src: url('../fonts/lato-medium-webfont.woff2') format('woff2'), url('../fonts/lato-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'latoregular';
+  src: url('../fonts/lato-regular-webfont.woff2') format('woff2'), url('../fonts/lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'latosemibold';
+  src: url('../fonts/lato-semibold-webfont.woff2') format('woff2'), url('../fonts/lato-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'latobold_italic';
+  src: url(../fonts/lato-bolditalic-webfont.woff2) format('woff2'), url(../fonts/lato-bolditalic-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'latoitalic';
+  src: url(../fonts/lato-italic-webfont.woff2) format('woff2'), url(../fonts/lato-italic-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'latolight_italic';
+  src: url(../fonts/lato-lightitalic-webfont.woff2) format('woff2'), url(../fonts/lato-lightitalic-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'latomedium_italic';
+  src: url(../fonts/lato-mediumitalic-webfont.woff2) format('woff2'), url(../fonts/lato-mediumitalic-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'latothin_italic';
+  src: url(../fonts/lato-thinitalic-webfont.woff2) format('woff2'), url(../fonts/lato-thinitalic-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'), url('../fonts/roboto-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'), url('../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotolight';
+  src: url('../fonts/roboto-light-webfont.woff2') format('woff2'), url('../fonts/roboto-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'), url('../fonts/roboto-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_condensedbold';
+  src: url('../fonts/robotocondensed-bold-webfont.woff2') format('woff2'), url('../fonts/robotocondensed-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_condensedlight';
+  src: url('../fonts/robotocondensed-light-webfont.woff2') format('woff2'), url('../fonts/robotocondensed-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_condensedregular';
+  src: url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'), url('../fonts/robotocondensed-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'playfair_displayitalic';
+  src: url('../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2') format('woff2'), url('../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'playfair_displayregular';
+  src: url('../fonts/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'), url('../fonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* ------------------- */
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Bold.woff2') format('woff2'),
+    url('../fonts/Cormorant-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Italic.woff2') format('woff2'),
+    url('../fonts/Cormorant-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Cormorant-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Light.woff2') format('woff2'),
+    url('../fonts/Cormorant-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-MediumItalic.woff2') format('woff2'),
+    url('../fonts/Cormorant-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Medium.woff2') format('woff2'),
+    url('../fonts/Cormorant-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-Regular.woff2') format('woff2'),
+    url('../fonts/Cormorant-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-LightItalic.woff2') format('woff2'),
+    url('../fonts/Cormorant-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-SemiBold.woff2') format('woff2'),
+    url('../fonts/Cormorant-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('../fonts/Cormorant-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/Cormorant-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  font-family: "robotoregular";
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  font-size: 14px
+}
+
+.brand-text h4 {
+  font-family: 'Cormorant';
+}
+
+.custombtn {
+  padding: 13px 46px;
+  border-radius: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  line-height: 16px;
+}
+
+.drk-btn {
+  background: #000;
+  color: #fff;
+}
+
+.drk-btn:hover {
+  color: #000;
+  background: #FFDF10;
+}
+
+.yellowbtn {
+  color: #000;
+  background: #FFDF10;
+}
+
+.yellowbtn:hover {
+  background: #000;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none
+}
+
+.black-underline {
+  height: 3px;
+  width: 7%;
+  background: #000;
+}
+
+.yellow-underline {
+  height: 3px;
+  width: 10%;
+  background: #ffdf10;
+}
+
+.bluebtn {
+  background: #0469FF;
+  border-radius: 0;
+}
+
+.bluebtn:hover {
+  background: #df3028;
+}
+
+.blue-br-btn {
+  border: 1px solid #0469ff;
+  border-radius: 0;
+  color: #000;
+  background: #fff;
+}
+
+.blue-br-btn:hover {
+  border: 1px solid #df3028;
+  background: #df3028;
+  color: #fff;
+}
+
+/* Login-pg-BODY CSS START */
+.login-pg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+/* Login-pg-BODY CSS End  */
+/* Logo Section Header css Start */
+.logo-sec-wraper {
+  padding: 10px 0
+}
+
+a.logo-align {
+  text-decoration: none;
+  display: flex;
+  align-items: center
+}
+
+.brand-text h4 {
+  padding-left: 10px;
+  font-size: 24px;
+  color: #000;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.brand-text h4 span {
+  color: #000;
+  display: block;
+  font-size: 18px;
+  line-height: 24px
+}
+
+.brand-text h4 span.gov-txt {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.loginbtn-sec {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* Logo Section Header css End */
+/* Login-Area CSS Start  */
+.login-area {
+  background: url(../images/bg-image.png) no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+  padding: 64px 0;
+}
+
+.icon-inside {
+  position: relative;
+}
+
+.icon-in {
+  position: absolute;
+  margin-top: 4px;
+  right: 30px;
+  z-index: 999;
+  font-size: 20px;
+}
+
+.login-area .loginuser {
+  padding: 15px 0;
+}
+
+.login-area .login-form-sec {
+  background: #fff;
+  padding: 30px;
+}
+
+.login-area .login-form-sec h2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.login-area .login-ryt-sec {
+  background: url(../images/login-innerryt-bg.png) no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 100%;
+  padding: 30px;
+  text-align: justify;
+}
+
+.form-group .form-control {
+  border: 0;
+  border-bottom: 1px solid #707070;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 25px;
+}
+
+.form-group .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #008bff !important;
+}
+
+.loginuser .form-group .form-control::placeholder {
+  font-size: 16px;
+}
+
+.captchareload {
+  line-height: 6.0rem;
+  font-size: 24px;
+}
+
+.captchaimage>.form-group>input.form-control {
+  text-align: center;
+  background: rgb(0, 0, 0);
+  padding: 7px 15px;
+  cursor: none;
+}
+
+.captchaimage>.form-group>input::placeholder {
+  color: rgb(255, 255, 255) !important;
+  text-align: left;
+  display: inline-block;
+  text-decoration: line-through
+}
+
+.loginarea label {
+  display: block;
+  font-size: 0.89rem;
+}
+
+.captcha-input {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-ryt-sec h3 {
+  font-family: 'poppinsregular';
+  display: flex;
+  flex-direction: column;
+  line-height: 32px;
+  font-size: 26px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.login-ryt-sec h3 span {
+  font-family: 'poppinssemibold';
+}
+
+.login-area .ryt-sec-content {
+  font-size: 14px;
+  line-height: 28px;
+  max-width: 45%;
+  padding-top: 15px;
+}
+
+.loginuser .yellowbtn {
+  text-align: center;
+  border-radius: 0px;
+}
+
+/* Login Area CSS End  */
+/* Footer Bottom Section css Start */
+.footer-bottom-sec {
+  padding: 15px 0;
+  background: #1d1d1d;
+}
+
+.copyright-sec p {
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.copyright-align {
+  display: flex;
+  justify-content: end;
+}
+
+/* Footer Bottom Section css End */
+
+
+
+
+/* dashboard css  */
+.registration-form-body .form-group label {
+  font-size: 13px;
+  margin: 5px 0 0 0;
+  color: #000000b3;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 20px 0;
+}
+
+.dashboard-content-sec {
+  display: flex;
+  height: 80vh;
+}
+
+.header-sec {
+  background: #fff;
+  padding: 0 0px;
+}
+
+.wrapper-white .dashboard-top {
+  background-image: linear-gradient(to right, #0469ff, #0092ff, #00b0ff, #00c8ec, #00dcd4);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 90px;
+}
+
+.search-field {
+  position: relative;
+}
+
+.search-field .form-control:hover,
+.search-field .form-control:focus,
+.search-field .form-control:focus-visible,
+.search-field .form-control:focus-within {
+  outline: none;
+  box-shadow: 0 0 5px 1px #6f6b4a96;
+}
+
+.backbtn {
+  padding: 4px 14px;
+  border: 2px solid #f4cf7d;
+  background: #f9ac51;
+  cursor: pointer;
+}
+
+.backbtn:hover,
+.backbtn:focus {
+  background-color: #eb9834;
+}
+
+.dashboard-rightpart .backbtn i {
+  margin-right: 5px;
+}
+
+.registration-form-head li.nav-item {
+  background: transparent;
+
+}
+
+.registration-form-head li.nav-item a {
+  color: #000 !important;
+  font-size: 18px;
+  border: none;
+}
+
+.registration-form .registration-form-head {
+  border-bottom: 1px solid #989898 !important;
+}
+
+.registration-form .registration-form-body {
+  padding: 20px 0;
+}
+
+.registration-form-head .nav-item.show .nav-link,
+.registration-form-head .nav-link.active,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  box-shadow: 0px 3px 0px #4C08FE !important;
+  border: none;
+}
+
+.registration-form-body .form-group .form-control {
+  background: transparent !important;
+  font-size: 16px;
+  color: #282828f5;
+}
+
+.dashboard-content-sec h1,
+.dashboard-content-sec h2,
+.dashboard-content-sec h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.dashboard-content-sec h2 {
+  font-size: 24px;
+}
+
+.dashboard-content-sec h3 {
+  font-size: 16px;
+}
+
+.dashboard-content-sec h6 {
+  font-size: 10px;
+}
+
+.dashboard-content-sec h3,
+.dashboard-content-sec h4,
+.dashboard-content-sec h5 {
+  margin-top: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.content-wraper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+nav.navbar-default {
+  width: 20vw;
+}
+
+#side-navbar {
+  width: 80vw;
+  ;
+}
+
+#page-wrapper {
+  width: 100%;
+  background: #ffffff;
+}
+
+#users {
+  width: 100%;
+  background: #ffffff;
+}
+
+#training {
+  width: 100%;
+  background: white;
+}
+
+#t-view {
+  width: 100%;
+  background: white;
+}
+
+.dashboard-top {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.minidash {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.circlebx h6 {
+  font-size: 14px;
+  font-style: italic;
+  padding-top: 12px;
+  color: #fff;
+}
+
+.big-title h2 {
+  font-size: 50px;
+  font-family: 'rajdhaniregular';
+  color: #fff;
+  margin: 0;
+}
+
+.gradiant1 {
+  background: transparent linear-gradient(73deg, #6217FF 0%, #660C80 100%) 0% 0% no-repeat padding-box;
+}
+
+.gradiant2 {
+  background: transparent linear-gradient(71deg, #F02844 0%, #C1006D 100%) 0% 0% no-repeat padding-box;
+}
+
+.gradiant3 {
+  background: transparent linear-gradient(73deg, #FC8D2B 0%, #FF2300 100%) 0% 0% no-repeat padding-box;
+}
+
+.gradiant4 {
+  background: transparent linear-gradient(72deg, #0AA9FB 0%, #13BE84 100%) 0% 0% no-repeat padding-box;
+}
+
+.Profile-sec ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Profile-sec ul li {
+  margin-left: 20px;
+}
+
+.user-name {
+  color: #000;
+  margin-right: 10px;
+  padding-top: 7px;
+  line-height: 1;
+  font-family: 'poppinsregular';
+  font-size: 14px;
+}
+
+.user-name label {
+  font-size: 12px;
+}
+
+.Profile-sec ul li.user-profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.user-img {
+  background: #ffb319;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.notification {
+  position: relative;
+}
+
+.changepassword {
+  position: absolute;
+  bottom: -86px;
+  right: 0;
+  background: #ffffff;
+  width: 180px;
+  z-index: 1;
+  box-shadow: 0px 2px 5px 0px rgb(99 99 99 / 55%);
+}
+
+.Profile-sec ul .changepassword {
+  flex-direction: column !important;
+  padding: 10px 0;
+  display: none;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.nav>li>a {
+  color: #000;
+  padding: 21px 20px;
+  display: flex;
+  font-size: 16px;
+}
+
+.nav.metismenu>li {
+  display: block;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #b3b3b375;
+}
+
+.navbar-default .nav>li>a i {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.navbar-default .nav>li>a .fa.arrow {
+  color: #fff;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.navbar-default .nav>li>a:hover,
+.navbar-default .nav>li>a:focus,
+.navbar-default .nav>li.actv a,
+.navbar-default .nav>li.actv a .fa.arrow {
+  background-image: linear-gradient(to right, #dc2929, #e74323, #f15a1b, #f96f11, #ff8400);
+  color: #ffffff;
+}
+
+.nav>li>a i {
+  margin-right: 15px;
+}
+
+.nav>li span.nav-label {
+  width: 80%;
+}
+
+.navbar-default {
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 7px 0px rgb(179 179 179 / 84%);
+}
+
+.nav.nav-second-level.collapse[style] {
+  height: auto !important;
+}
+
+.pagination-dov .back a,
+.pagination-dov .next a {
+  background: #F02844;
+  color: #fff !important;
+  border: 0;
+  border-radius: 4px;
+}
+
+.pagination-dov ul.pagination li {
+  margin-left: 10px;
+}
+
+.pagination-dov ul.pagination li .active {
+  color: #f02844 !important;
+}
+
+.pagination-dov ul.pagination li .page-link:hover {
+  color: #f02844;
+}
+
+.list-heading h3 {
+  font-size: 18px;
+  color: #4D4F5C;
+  font-family: 'poppinsmedium';
+}
+
+
+button:focus {
+  outline: none;
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+/* .table-section table>thead>tr>th {
+    background: #F5F6FA;
+    color: #000;
+    font-size: 14px;
+        border-bottom: 1px solid #dadada;
+  }
+  .table-section table>tbody>tr>td {
+    border: none;
+    border-bottom: 1px solid #dadada;
+  }
+  
+  .custom-table thead tr th {
+    background: #1e4c8f;
+    color: #A3A6B4;
+    font-size: 12px;
+  }
+  .custom-table thead tr th {
+    vertical-align: middle;
+    font-family: 'poppinsregular';
+  }
+  .custom-table{
+    font-family: 'poppinsregular';
+  } */
+.search-field input {
+  border-radius: 9px;
+  border: 0;
+  background: #fff8ea;
+}
+
+.search-field {
+  position: relative;
+}
+
+.search-field span {
+  position: absolute;
+  top: 5px;
+  right: 12px;
+  color: #B20606F7;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button.nobg {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* .dashboard-content-sec .form-control {
+  box-shadow: 0 0 5px 1px #dadada96;
+} */
+
+.arrow {
+  float: right;
+}
+
+.fa.arrow:before {
+  content: "\f067";
+}
+
+.active>a>.fa.arrow:before {
+  content: "\f068";
+}
+
+.nav-second-level li,
+.nav-third-level li {
+  border-bottom: none !important;
+}
+
+.nav-second-level li a {
+  padding: 7px 10px 7px 10px;
+  padding-left: 52px;
+}
+
+.fixed-sidebar.mini-navbar .nav-second-level.collapsing li a,
+.nav-second-level.collapsing li a {
+  min-width: 250px;
+}
+
+.body-small .nav-second-level.collapsing li a,
+.mini-navbar .nav-second-level.collapsing li a {
+  min-width: 140px;
+}
+
+.nav-third-level li a,
+.fixed-sidebar.mini-navbar .nav-second-level li .nav-third-level li a {
+  padding-left: 62px;
+}
+
+.navbar-default .special_link a {
+  background: #1ab394;
+  color: white;
+}
+
+.navbar-default .special_link a:hover {
+  background: #17987e !important;
+  color: white;
+}
+
+.navbar-default .special_link a span.label {
+  background: #fff;
+  color: #1ab394;
+}
+
+.navbar-default .landing_link a {
+  background: #1cc09f;
+  color: white;
+}
+
+.navbar-default .landing_link a:hover {
+  background: #1ab394 !important;
+  color: white;
+}
+
+.navbar-default .landing_link a span.label {
+  background: #fff;
+  color: #1cc09f;
+}
+
+.logo-element {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  display: none;
+  padding: 18px 0;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none;
+  border-color: #dddddd #dddddd rgba(0, 0, 0, 0);
+  border-bottom: #f3f3f4;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: #555555;
+  cursor: default;
+}
+
+.nav.nav-tabs li {
+  background: none;
+  border: none;
+}
+
+.dashboard-heading {
+  font-family: 'poppinsregular';
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-heading i {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+/* dashboard-profile-sec css  */
+.Profile-sec ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Profile-sec ul li.user-profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.user-img {
+  margin-right: 10px;
+}
+
+.user-name {
+  color: #333;
+  margin-right: 10px;
+  padding-top: 7px;
+  font-family: 'open_sansregular';
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.Profile-sec ul li .profille-arrow .fa {
+  background: transparent;
+  color: #333;
+  padding: 0;
+}
+
+.Profile-sec ul .changepassword {
+  flex-direction: column !important;
+  padding: 10px 0;
+  display: none;
+}
+
+.Profile-sec ul .changepassword li {
+  margin: 0px 0;
+  border-bottom: 1px solid #b1b1b154;
+}
+
+.Profile-sec ul .changepassword li:hover {
+  background-image: linear-gradient(to right, #dc2929, #e74323, #f15a1b, #f96f11, #ff8400);
+}
+
+.Profile-sec ul .changepassword li:hover a {
+  color: #ffffff !important;
+}
+
+.Profile-sec ul .changepassword a {
+  color: #000000;
+  padding: 5px 15px;
+  display: inline-block;
+  width: 100%;
+}
+
+.Profile-sec ul li.user-profile:hover .changepassword {
+  display: block;
+}
+
+.icon {
+  background: url(../images/icon-sheet.png);
+  display: block;
+  width: 100px;
+  height: 20px;
+  z-index: 99999;
+  background-size: 100%;
+}
+
+.nav>li>a .icon {
+  background: url(../images/icon-sheet.png);
+  display: block;
+  width: 30px;
+  height: 24px;
+  background-repeat: no-repeat;
+  transition: .4s;
+}
+
+.nav>li>a .dashboard {
+  background-position: 0 4px;
+}
+
+.nav>li>a:hover .icon.dashboard,
+.nav>li.actv>a .dashboard {
+  background-position: -69px 4px;
+}
+
+.nav>li>a .employee {
+  background-position: 0 -61px;
+}
+
+.nav>li>a:hover .employee,
+.nav>li.actv>a .employee {
+  background-position: -69px -61px;
+}
+
+.nav>li>a .training {
+  background-position: 0 -128px;
+}
+
+.nav>li>a:hover .training,
+.nav>li.actv>a .training {
+  background-position: -69px -128px;
+}
+
+.nav>li>a .bio {
+  background-position: 0 -194px;
+}
+
+.nav>li>a:hover .bio,
+.nav>li.actv>a .bio {
+  background-position: -69px -194px;
+}
+
+.nav>li>a .update {
+  background-position: 0 -261px;
+}
+
+.nav>li>a:hover .update,
+.nav>li.actv>a .update {
+  background-position: -69px -261px;
+}
+
+.registration-form {
+  margin: -90px 15px 15px;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgb(172 172 172 / 68%);
+  font-family: 'poppinsmedium';
+}
+
+
+
+@media (max-width: 320px) {
+  a.logo-align {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .brand-text h4 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  /* HEADER CSS Start  */
+  .loginbtn-sec {
+    justify-content: center;
+    padding-top: 15px;
+  }
+
+  .brand-text h4 {
+    font-size: 22px;
+  }
+
+  .brand-text h4 span,
+  .brand-text h4 span.gov-txt {
+    line-height: 20px;
+  }
+
+  /* LOGIN Area Start  */
+  .mob-ver-pr {
+    padding-right: 15px !important;
+  }
+
+  .mob-ver-pl {
+    padding-left: 15px !important;
+  }
+
+  .login-area .ryt-sec-content {
+    max-width: 100%;
+    text-align: initial;
+    line-height: 24px;
+  }
+
+  .captchareload {
+    line-height: 15px;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .login-area {
+    padding: 30px 0;
+  }
+
+  .login-area .login-form-sec {
+    padding: 15px;
+  }
+
+  .login-ryt-sec h3 {
+    font-size: 20px;
+  }
+
+  .login-area .login-ryt-sec {
+    padding: 15px;
+    background-image: linear-gradient(to right top, #c4f7ff, #cef7fb, #d9f7f8, #e2f6f6, #ecf6f5);
+  }
+
+  /* FOOTER CSS Start  */
+  .footer-bottom-sec {
+    text-align: center;
+  }
+
+  .copyright-align {
+    justify-content: center;
+  }
+
+  .copyright-align p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+  /* Login Area CSS Start  */
+  .login-area .login-form-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .login-area .login-ryt-sec {
+    padding: 15px;
+    background-image: linear-gradient(to right top, #c4f7ff, #cef7fb, #d9f7f8, #e2f6f6, #ecf6f5);
+  }
+
+  .loginuser .mob-ver-pl {
+    padding-left: 15px !important;
+  }
+
+  .loginuser .yellowbtn {
+    margin-top: 10px;
+  }
+
+  .login-area .ryt-sec-content {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {}
+
+/* form{
+  height: 25vh;
+} */
+
+.page_main {
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+}
